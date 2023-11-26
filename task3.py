@@ -3,7 +3,7 @@ from openai import OpenAI
 
 st.title("_AI-Code Evaluator_")
 
-key = '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'
+key = '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'
 client = OpenAI(api_key=key)
 
 def generate_text(user_description, user_code):
