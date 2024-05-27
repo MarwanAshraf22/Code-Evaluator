@@ -18,8 +18,7 @@ To run this application, you need to have the following installed:
 ## Installation
 
 1. Clone the repository:
-    `git clone https://MarwanAshraf22/Code-Evaluator.git`
-    `cd ai-code-evaluator`
+    `git clone https://github.com/MarwanAshraf22/Code-Evaluator.git`
 
 2. Install the required Python packages:
     `pip install -r requirements.txt`
