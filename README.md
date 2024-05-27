@@ -1,56 +1,73 @@
-AI-Code Evaluator
-This repository contains the code for a Streamlit web application, "AI-Code Evaluator", which leverages OpenAI's GPT-3.5-turbo model to evaluate user-submitted code based on various criteria and suggest improvements.
+echo "# AI-Code Evaluator
 
-Features
-Code Evaluation: Evaluates user-submitted code based on task solution, modularity, efficiency, readability, and inclusion of main concepts.
-Code Suggestion: Generates suggested code for the provided task description.
-Prerequisites
+This repository contains the code for a Streamlit web application, \"AI-Code Evaluator\", which leverages OpenAI's GPT-3.5-turbo model to evaluate user-submitted code based on various criteria and suggest improvements.
+
+## Features
+
+- **Code Evaluation**: Evaluates user-submitted code based on task solution, modularity, efficiency, readability, and inclusion of main concepts.
+- **Code Suggestion**: Generates suggested code for the provided task description.
+
+## Prerequisites
+
 To run this application, you need to have the following installed:
 
-Python 3.7 or higher
-Streamlit
-OpenAI Python Client Library
-Installation
-Clone the repository:
+- Python 3.7 or higher
+- Streamlit
+- OpenAI Python Client Library
 
-sh
-Copy code
-git clone https://github.com/yourusername/ai-code-evaluator.git
-cd ai-code-evaluator
-Install the required Python packages:
+## Installation
 
-sh
-Copy code
-pip install -r requirements.txt
-Usage
-Set up your OpenAI API key. Replace the placeholder in the code with your actual OpenAI API key:
+1. Clone the repository:
+    \`\`\`sh
+    git clone https://github.com/yourusername/ai-code-evaluator.git
+    cd ai-code-evaluator
+    \`\`\`
 
-python
-Copy code
-key = 'your-openai-api-key'
-Run the Streamlit application:
+2. Install the required Python packages:
+    \`\`\`sh
+    pip install -r requirements.txt
+    \`\`\`
 
-sh
-Copy code
-streamlit run app.py
-Open your web browser and navigate to http://localhost:8501.
+## Usage
 
-Enter the code description and code you want to evaluate in the respective fields and click "Evaluate the code".
+1. Set up your OpenAI API key. Replace the placeholder in the code with your actual OpenAI API key:
+    \`\`\`python
+    key = 'your-openai-api-key'
+    \`\`\`
 
-Optionally, you can also generate a suggested code for the given task description by clicking "Generate Suggested Code".
+2. Run the Streamlit application:
+    \`\`\`sh
+    streamlit run app.py
+    \`\`\`
 
-Code Structure
-app.py: Main application file containing the Streamlit interface and the logic for interacting with the OpenAI API.
-requirements.txt: File listing the required Python packages.
-Example
+3. Open your web browser and navigate to \`http://localhost:8501\`.
+
+4. Enter the code description and code you want to evaluate in the respective fields and click \"Evaluate the code\".
+
+5. Optionally, you can also generate a suggested code for the given task description by clicking \"Generate Suggested Code\".
+
+## Code Structure
+
+- \`app.py\`: Main application file containing the Streamlit interface and the logic for interacting with the OpenAI API.
+- \`requirements.txt\`: File listing the required Python packages.
+
+## Example
+
 Here is an example of how to use the application:
 
-Enter the code description: Describe the task that the code is supposed to accomplish.
-Enter the code: Paste the code you want to be evaluated.
-Click "Evaluate the code": Get detailed feedback on the code.
-Click "Generate Suggested Code": Receive a suggested code snippet based on the provided task description.
-Contributions
+1. **Enter the code description**: Describe the task that the code is supposed to accomplish.
+2. **Enter the code**: Paste the code you want to be evaluated.
+3. **Click \"Evaluate the code\"**: Get detailed feedback on the code.
+4. **Click \"Generate Suggested Code\"**: Receive a suggested code snippet based on the provided task description.
+
+## Contributions
+
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes you would like to make.
 
-License
+## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+Feel free to customize this \`README.md\` to
