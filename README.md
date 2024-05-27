@@ -18,33 +18,24 @@ To run this application, you need to have the following installed:
 ## Installation
 
 1. Clone the repository:
-    \`\`\`sh
-    git clone https://MarwanAshraf22/Code-Evaluator.git
-    cd ai-code-evaluator
-    \`\`\`
+    `git clone https://MarwanAshraf22/Code-Evaluator.git`
+    `cd ai-code-evaluator`
 
 2. Install the required Python packages:
-    \`\`\`sh
-    pip install -r requirements.txt
-    \`\`\`
+    `pip install -r requirements.txt`
+   
 
 ## Usage
 
 1. Set up your OpenAI API key. Replace the placeholder in the code with your actual OpenAI API key:
-    \`\`\`python
-    key = 'your-openai-api-key'
-    \`\`\`
+    `key = 'your-openai-api-key'`
 
 2. Run the Streamlit application:
-    \`\`\`sh
-    streamlit run app.py
-    \`\`\`
+    `streamlit run app.py`
 
-3. Open your web browser and navigate to \`http://localhost:8501\`.
+3. Enter the code description and code you want to evaluate in the respective fields and click \"Evaluate the code\".
 
-4. Enter the code description and code you want to evaluate in the respective fields and click \"Evaluate the code\".
-
-5. Optionally, you can also generate a suggested code for the given task description by clicking \"Generate Suggested Code\".
+4. Optionally, you can also generate a suggested code for the given task description by clicking \"Generate Suggested Code\".
 
 ## Code Structure
 
@@ -70,4 +61,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 
-Feel free to customize this \`README.md\` to
