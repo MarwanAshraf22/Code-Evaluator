@@ -1,4 +1,4 @@
-echo "# AI-Code Evaluator
+###### AI-Code Evaluator
 
 This repository contains the code for a Streamlit web application, \"AI-Code Evaluator\", which leverages OpenAI's GPT-3.5-turbo model to evaluate user-submitted code based on various criteria and suggest improvements.
 
