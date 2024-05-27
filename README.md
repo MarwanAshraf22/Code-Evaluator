@@ -1,4 +1,4 @@
-###### AI-Code Evaluator
+# AI-Code Evaluator
 
 This repository contains the code for a Streamlit web application, \"AI-Code Evaluator\", which leverages OpenAI's GPT-3.5-turbo model to evaluate user-submitted code based on various criteria and suggest improvements.
 
@@ -19,7 +19,7 @@ To run this application, you need to have the following installed:
 
 1. Clone the repository:
     \`\`\`sh
-    git clone https://github.com/yourusername/ai-code-evaluator.git
+    git clone https://MarwanAshraf22/Code-Evaluator.git
     cd ai-code-evaluator
     \`\`\`
 
