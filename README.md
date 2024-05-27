@@ -55,9 +55,4 @@ Here is an example of how to use the application:
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes you would like to make.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
 
